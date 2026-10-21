@@ -562,3 +562,36 @@ a { color:inherit; }
     text-align: center;
   }
 }
+
+/* Mobile Header Improvements */
+
+@media (max-width: 768px) {
+  .site-header {
+    position: relative;
+    padding: 12px 15px;
+  }
+
+  .site-logo {
+    max-width: 95px;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .main-nav a {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  #about,
+  #services,
+  #articles,
+  #contact {
+    scroll-margin-top: 20px;
+  }
+}
