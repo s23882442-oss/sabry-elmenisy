@@ -595,3 +595,31 @@ a { color:inherit; }
     scroll-margin-top: 20px;
   }
 }
+
+/* Mobile Hero Typography Refinement */
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: clamp(30px, 7vw, 40px);
+    line-height: 1.5;
+    margin: 12px auto;
+  }
+
+  .hero-section h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .hero-section p {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .site-header {
+    padding: 10px 12px;
+  }
+
+  .site-header nav a {
+    font-size: 13px;
+  }
+}
